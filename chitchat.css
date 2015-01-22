@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html { 
+  background: url(background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face{
+    font-family:Comfortaa, HappyKiller, Arial;
+	src: url('Comforta_Regular.ttf');
+	src: url('happykiller.ttf');
+}
+
+body{
+	color:#FFF;
+	font-family:Comfortaa, HappyKiller, Arial;
+	font-size:24px;
+	text-align:center;
+	position:fixed;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+h1{
+	font-family:HappyKiller, Arial;
+	color:#C7f464;
+}
+b{
+	color:#FF6B6B;
+}
+
